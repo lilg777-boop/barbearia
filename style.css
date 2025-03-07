@@ -1,0 +1,7 @@
+main {
+    background-color: black
+    color(srgb red green blue);
+}
+body {
+    background-image: url(real.jpg);
+}
