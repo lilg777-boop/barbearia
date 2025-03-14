@@ -1,7 +1,14 @@
 main {
     background-color: black
-    color(srgb red green blue);
+    color(srgb rgb(0, 0, 0) rgb(0, 0, 0) rgb(0, 0, 0));
 }
 body {
     background-image: url(real.jpg);
+    color: aliceblue;
 }
+h1 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+
