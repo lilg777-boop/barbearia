@@ -14,10 +14,23 @@ font-size: 22px;
 text-decoration: none;
 }
 #logo {
-
-
 }
-    
+img {
+    top: 285PX;
+    width: 300px;
+    height: 300PX;
+}
+.caixa {
+    position: relative;
+    width: 940;
+    margin: 0;
+}
+nav {
+    position: absolute;
+    top: 110px;
+    right: 0;
+}
+        
 
 
 
