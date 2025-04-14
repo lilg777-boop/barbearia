@@ -3,28 +3,62 @@
     <head>
     <meta charset="UTF-8">
     <title>lilG</title>
-    <link rel="stylesheet" href="style-home.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="reset.css">
     </head>
     <body>
         <header>
-        <a href="produtos.html">produtos</a>
+            <div class="caixa"></div>
+            <h1><img src="AT WORK.jpg" alt=""></h1>
         </header>
        <main>
         <form>
-            <label for="nomeesobrenome">nome/sobrenome</label>
-            <input type="text" id="nomeesobrenome">
+            <label for="nomeesobrenome"> nome/sobrenome</label>
+            <input type="text" id="nomeesobrenome" class="input-padrao">
 
             <label for="email">email</label>
-            <input type="text" id="email">
+            <input type="text" id="email" class="input-padrao">
+
 
             <label for="telefone">telefone</label>
-            <input type="telefone" id="telefone">
+            <input type="telefone" id="telefone" class="input-padrao">
 
+            <label for="mensagem">mensagem</label>
+            <textarea cols="70" rows="10" id="mensagem"class="input-padrao"></textarea>
+
+            <div>
+                <p>fale com a firma, forma de contato da sua preferencia, basta selecionar</p>
+                <label for="radio-email">
+                    <input type="radio" name="contato" value="email" id="radio-email">
+                    email
+                </label>
+                <label for="radio-telefone">
+                    <input type="radio" name="contato" value="telefone" id="radio-telefone">
+                    telefone
+                </label>
+                <label for="radio-whatsapp">
+                    <input type="radio" name="contato" value="whatsapp" id="radio-whatsapp">
+                    whatsapp
+                </label>
+            </div>
+            <div>
+                <p>qual horario prefere ser atendido?</p>
+                <select>
+                    <option>Manha</option>
+                     <option>Tarde</option>
+                     <option>Noite</option>
+                    <select>
+                        <label class="checkbox">
+                            <input type="checkbox">
+                            Gostaria de receber atualizaçoes da firma por email?
+            </div>
 
             <input type="submit" value="enviar formulario">
         </form>
        </main>
         <footer>
+            <img src="AT WORK.jpg" alt="">
+            <p class="copyright">&#169;copyright Gabriel de Oliveira - 2025 </p>
 
         </footer>    
         </body>

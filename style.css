@@ -1,11 +1,118 @@
-main {
-    background-color: black
-    color(srgb rgb(0, 0, 0) rgb(0, 0, 0) rgb(0, 0, 0));
+header{
+    background-color: rgb(0, 0, 0);
 }
-body {
-    background-image: url(real.jpg);
-    color: aliceblue;
+
+nav li{
+    display: inline;
+    margin: 0 0 0 15px;
 }
-h1 {
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+nav a {
+text-transform: uppercase;
+color: aliceblue;
+font-weight: bold;
+font-size: 22px;
+text-decoration: none;
 }
+nav a:hover{
+    color: blue;
+    text-decoration: underline;
+}
+#logo {
+    width: 250px;
+}
+.caixa {
+    position: relative;
+    width: 940px;
+    margin: 0 auto; 
+    
+}
+nav {
+    position: absolute;
+    top: 110px;
+    right: 0;
+}
+img{
+top: 284px;
+width: 250px;
+height: 250px;
+}
+body{
+    background-color: #f5ad0b;
+}
+.produtos{
+    width: 940px;
+    margin: 0 auto;
+    padding: 50px 0;
+}
+.produtos li {
+    display:inline-block;
+    text-align: center;
+    width: 30%;
+    vertical-align: top;
+    margin:0 1.5%;
+    padding: 30px 0px;
+    box-sizing: border-box;
+    border: 2px solid #000000;
+    border-radius: 10px;
+}
+.produtos li:hover{
+    border-color: blue; 
+}
+
+.produtos li:active{
+    border-color: rgba(217, 8, 245, 0.87);
+}
+.produtos li:hover h2{
+    font-size: 34px;
+    color: blue;
+}
+
+.produtos h2{
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+footer {
+    text-align: center;
+    background-color: #000000;
+    padding: 40px 0;
+}
+
+footer img {
+    width: 200px;
+}
+
+
+.copyright {
+    color: blue;
+    font-size: 13px;
+    margin: 20px 0 0;
+}
+main{
+    width: 940px;
+    margin: 0 auto; 
+}
+form {
+    margin: 40px 0;
+}
+form label, form p {
+    display: block;
+font-size: 20px;
+margin: 0 0 10px;
+}
+.input-padrao{
+display: block;
+margin: 0 0 20px;
+padding: 10px 25px;
+width: 50%;
+}
+.checkbox {
+    margin: 20px 0;
+}
+
+
+
+
+
+        
+
